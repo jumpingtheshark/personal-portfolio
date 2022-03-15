@@ -1,0 +1,56 @@
+
+
+
+
+
+initial cloning
+
+git clone https://jumpingtheshark:key@github.com/jumpingtheshark/personal-portfolio.git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+asking for name and email on the local computer
+
+
+
+C:\Users\mrubi\git\personal-portfolio>git add -A
+
+C:\Users\mrubi\git\personal-portfolio>git commit -m "first one"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'mrubi@DESKTOP-NJCSMHV.(none)')
+
+C:\Users\mrubi\git\personal-portfolio> git config --global user.email "mike.rubinstein@gmail.com"
+
+C:\Users\mrubi\git\personal-portfolio>git config --global user.name "Michael Rubinstein"
+
+C:\Users\mrubi\git\personal-portfolio>git commit -m "first one"
+[main 1615a3a] first one
+ 6 files changed, 198 insertions(+)
+ create mode 100644 personal_portfolio/manage.py
+ create mode 100644 personal_portfolio/personal_portfolio/__init__.py
+ create mode 100644 personal_portfolio/personal_portfolio/asgi.py
+ create mode 100644 personal_portfolio/personal_portfolio/settings.py
+ create mode 100644 personal_portfolio/personal_portfolio/urls.py
+ create mode 100644 personal_portfolio/personal_portfolio/wsgi.py
