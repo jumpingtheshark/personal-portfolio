@@ -1,0 +1,6 @@
+3-16        5.37-5.40   36 mins         6 hours (360 mins)      1:60    I wasted a lot of time getting django-admin.exe to work on the laptop.
+                                                                            in the end it worked, but only through pycharms terminal
+                                                                            I also spent some time settings up the environment, git etc.. on
+                                                                            on the AIO at my house.  Which was a lot more pleasant.
+
+
