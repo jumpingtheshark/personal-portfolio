@@ -15,8 +15,11 @@ http://127.0.0.1:8000/admin/login/?next=/admin/
 Username (leave blank to use 'mrubi'): admin
 Email address: admin@admin.com
 Password: admin
-
+(admin, admin)
 
 
 manage.py changepassword
 
+
+admin url ?
+http://127.0.0.1:8000/admin/
