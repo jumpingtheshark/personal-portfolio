@@ -4,11 +4,11 @@ from .models import Project
 
 
 # Create your views here.
-def home(request):  # function added
+def home2(request):  # function added
     return HttpResponse("home page")
 
 
 
-def home2 (request):
+def home (request):
     projects=Project.objects.all()
     return render (request, 'folio/home.html', {'projects':projects})
