@@ -4,4 +4,27 @@
 
     {{projects}}
 
+
+    <Br>
+
+{% for project in projects  %}
+<br>
+<br>
+<br>
+***********************
+<br>
+{{project.title}}
+<br>
+{{project.description}}
+<Br>
+{{project.image.url}}
+<Br>
+    <img src="{{project.image.url}}" height="700" width="1050" >
+    <Br>
+        {{project.url}}
+    <br>
+    <a href= {{project.url}}>Link</a>
+
+{%endfor%}
+
 </h1>
