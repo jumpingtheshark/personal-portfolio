@@ -6,9 +6,18 @@ python manage.py startapp blog
 
 
 
+
+
+                MIGRATIONS
 first, you make migratinos off of the models, and then you migrate.  word!
 python manage.py makemigrations
 python manage.py migrate
+
+
+
+
+
+
 
 http://127.0.0.1:8000/admin/login/?next=/admin/
  python manage.py createsuperuser

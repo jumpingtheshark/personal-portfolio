@@ -1,0 +1,3 @@
+1) type in the model with all the data fields and stuff
+2) Go to the app's admin.py and import the model and then register it 
+    (1 line of code each) 
