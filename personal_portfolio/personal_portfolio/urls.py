@@ -20,10 +20,15 @@ from django.conf import settings
 from portfolio import views
 from django.conf.urls import  include
 
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path ('', views.home),
+    #path ('', views.home),
+    #path ('home', views.home),
+    #path ('p', views.pretty),
     path('blog/', include('blog.urls')),
+    path ('', include ('portfolio.urls'))
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

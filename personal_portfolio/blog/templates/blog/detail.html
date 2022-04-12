@@ -1,3 +1,9 @@
+{% extends "folio/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
 {{blog}}
 
 <h1>
@@ -8,3 +14,6 @@
 </h2>
 
 {{blog.post_text | safe}}
+
+
+{% endblock %}

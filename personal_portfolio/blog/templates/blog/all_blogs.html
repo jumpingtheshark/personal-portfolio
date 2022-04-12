@@ -1,3 +1,10 @@
+{% extends "folio/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+
 Hello Blogs
 <BR>
 
@@ -17,6 +24,6 @@ Mike has written {{posts.count}} blog{{posts.count| pluralize}}
  {{post.post_text | striptags|  truncatechars:100}}
 
 {% endfor %}
-
+{% endblock %}
 
 
