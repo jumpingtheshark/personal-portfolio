@@ -9,7 +9,9 @@ Hello Blogs
         <br>
     {{ post.post_date }}
     <br>
-    {{post.title}}
+  <a  href ="{% url 'blog:detail' post.id  %}">
+      {{post.title}}
+  </a>
 
 {% endfor %}
 
