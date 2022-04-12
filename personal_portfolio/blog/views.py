@@ -10,7 +10,7 @@ def home(request):  # function added
     return HttpResponse("blogs home page")
 
 def all_blogs (request): #function added
-    posts = BlogPost.objects.order_by('-post_date')[:5]
+    posts = BlogPost.objects.order_by('-post_date')
     print (type(posts))
     return render (request, 'blog/all_blogs.html', {'posts':posts})
 

@@ -2,16 +2,19 @@ Hello Blogs
 <BR>
 
     Blog Entries 
-
+<br>
+Mike has written {{posts.count}} blog{{posts.count| pluralize}}
+<br>
 {% for post in posts %}
     <br>
     <Br>
         <br>
-    {{ post.post_date }}
+    {{ post.post_date | date:'M d Y'| upper }}
     <br>
   <a  href ="{% url 'blog:detail' post.id  %}">
-      {{post.title}}
-  </a>
+      {{post.title}}  </a>
+<Br>
+ {{post.post_text | striptags|  truncatechars:100}}
 
 {% endfor %}
 
