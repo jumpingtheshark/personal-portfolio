@@ -1,0 +1,13 @@
+auth
+    changepassword
+    createsuperuser
+
+
+static
+    collectstatic
+    findstatic
+    runserver
+
+app 
+    startapp
+    startproject

@@ -17,8 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls.static import static
 from django.conf import settings
-from portfolio import views
-from django.conf.urls import  include
+from django.conf.urls import include
 
 
 
@@ -28,7 +27,8 @@ urlpatterns = [
     #path ('home', views.home),
     #path ('p', views.pretty),
     path('blog/', include('blog.urls')),
-    path ('', include ('portfolio.urls'))
+    path('', include ('portfolio.urls')),
+    path('shows/', include('shows.urls'))
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
